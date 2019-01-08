@@ -1,0 +1,25 @@
+
+.navbar {
+    font-weight: 900;
+    text-align: right;
+}
+
+.searchbox input{
+    width: 400px;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    align-content: center;
+}
+
+.buttons {
+    width: 500px;
+}
+
+.buttons input {
+    float: center;
+    display: inline-block;
+    width: 200px;
+}
