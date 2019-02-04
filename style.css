@@ -1,7 +1,39 @@
 
 .navbar {
-    font-weight: 900;
-    text-align: right;
+    font-weight: 400;
+    font-family: arial;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.navbar li {
+    display: inline;
+    padding: 5px 5px 5px 5px;
+}
+
+.navbar li:hover {
+    text-transform: underline;
 }
 
 .searchbox input{
