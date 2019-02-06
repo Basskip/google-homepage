@@ -3,6 +3,9 @@
     font-weight: 400;
     font-family: arial;
     font-size: 13px;
+    position: static;
+    display: block;
+    overflow: auto;
 }
 
 a {
@@ -13,10 +16,23 @@ a:hover {
     text-decoration: underline;
 }
 
-.navbar ul {
+.navbar ul, .bottomnav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+#australia {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e4e4e4;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.bottomnav {
+    padding-left: 27px;
+    padding-right: 27px;
 }
 
 .left {
@@ -27,8 +43,8 @@ a:hover {
     float: right;
 }
 
-.navbar li {
-    display: inline;
+.navbar li a, .bottomnav li {
+    display: block;
     padding: 5px 5px 5px 5px;
 }
 
@@ -37,7 +53,8 @@ a:hover {
 }
 
 .searchbox input{
-    width: 400px;
+    width: 484px;
+    height: 44px;
 }
 
 .center {
@@ -46,12 +63,47 @@ a:hover {
     align-content: center;
 }
 
+.main {
+    display: block;
+    position: static;
+    overflow: auto;
+    height: 90%;
+}
+
+.footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-width: 2px;
+    line-height: 40px;
+    background-color: #f2f2f2;
+}
+
+.middlecontent {
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: auto;
+}
+
 .buttons {
-    width: 500px;
+    text-align: center;
+
 }
 
 .buttons input {
-    float: center;
     display: inline-block;
-    width: 200px;
+    width: auto;
+    font-weight: 700;
+    font-family: arial;
+    font-size: 13px;
+    padding: 8px 16px;
+    background-color: #f2f2f2;
+    color: #757575;
+    border-width: 0px;
 }
